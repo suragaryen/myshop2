@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+/*main.css*/
+a:link    {color: black; text-decoration: none;}
+a:visited {color: black; text-decoration: none;}
+a:hover   {color: black; text-decoration: underline;}
+a:active  {color: black; text-decoration: none;}
+
+.input-group {
+ 
+        display: block;
+}
+
+td.replyBox {
+    display: flex;
+    align-items: center;
+}
+
+input#content{
+	width: 88%;
+    margin-right: 10px;
+}
+
+.search-container {
+ display: flex;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.search-box {
+  width: calc(100% - 80px); /* 버튼 크기만큼 뺀 값 */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.search-button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  background-color: #00c1c8;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  box-sizing: border-box;
+  margin-left: 5px;
+}
+
+.search-button:hover {
+   background-color: #058085;
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ 
+ <!-- member.xml -->
+ 
+ <mapper namespace="member">
+
+	<select id="mlevel" parameterType="kr.co.itwill.member.MemberDTO" resultType="String">
+			SELECT mlevel
+			FROM member
+			WHERE id=#{id} AND passwd = #{passwd}
+			AND mlevel in ('A1', 'B1', 'C1', 'D1') 
+	</select>
+ </mapper>
