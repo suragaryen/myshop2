@@ -93,7 +93,7 @@ public class OrderCont {
     				
     				//7) 주문내역서 메일 보내기 : 과제
     		mav.addObject("msg1", "<img src='../image/logo_itwill.png'>");
-    		mav.addObject("msg2", "<p>주문이 완료되었습니다</p>");
+    		mav.addObject("msg2", "<p>주문이 완료되었습니다!!!!</p>");
     		mav.addObject("msg3", "<p><a href='/product/list'>[계속쇼핑하기]</a></p>");
     		
     	}else {
