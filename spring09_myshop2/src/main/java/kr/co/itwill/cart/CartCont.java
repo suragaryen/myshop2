@@ -21,7 +21,7 @@ import jakarta.servlet.http.HttpSession;
 public class CartCont {
 	
 	public CartCont() {
-		System.out.println("-----CartCont()객체생성됨🐸");
+		System.out.println("-----CartCont()객체생성됨🐸!!!");
 	}//end
 	
 	@Autowired
